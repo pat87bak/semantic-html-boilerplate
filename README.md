@@ -3,14 +3,12 @@ Semantic HTML
 
 # Semantic HTML tags
 
-<!-- placeholder for demo image -->
-<!-- ![Boilerplate](relative/path/to/img.jpg?raw=true "Semantic HTML") -->
-
 
 ## Table of Contents
 * [General Info](#general-info)
 * [Tech Stack](#tech-stack)
-* [Setup]()
+* [Setup](#setup)
+* [Preview](#preview)
 
 ## General Info
 Sample webpage which demontrates usage of semantic HTML tags. 
@@ -27,3 +25,6 @@ $ git clone https://github.com/pat87bak/cheatsheet.git
 $ cd ../cheatsheet
 open index.html
 ```
+
+## Preview
+![Boilerplate](./images/webpage_structure.png?raw=true "Semantic HTML")
