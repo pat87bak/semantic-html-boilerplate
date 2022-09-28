@@ -1,5 +1,58 @@
 
 .tag-info {
     border: 1px solid blue;
+    width: 100%;
 }
 
+.tag-info > div {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav {
+    border: 1px ;
+}
+
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 1px solid aquamarine;
+    padding: .5em 1em;
+    margin-right: 1em;
+}
+
+header h1, header p {
+    text-align: center;
+}
+
+
+aside {
+    width: 30%;
+}
+
+main section{
+    margin: 2em;
+}
+
+main section:first-of-type {
+    width: 50%;
+    display: inline-block;
+}
+
+main aside:first-of-type {
+    width: 30%;
+    display: inline-block;
+}
+
+aside section:first-of-type {
+    width: calc(100% - 4em);
+}
+
+section article {
+    margin: 2em;
+}
