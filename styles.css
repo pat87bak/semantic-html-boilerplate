@@ -1,7 +1,10 @@
+body * {
+    box-sizing: content-box;
+}
+
 
 .tag-info {
     border: 1px solid blue;
-    width: 100%;
 }
 
 .tag-info > div {
@@ -9,11 +12,6 @@
     font-weight: bold;
     font-size: 1.2em;
 }
-
-nav {
-    border: 1px ;
-}
-
 
 nav ul {
     text-align: center;
@@ -35,12 +33,12 @@ aside {
     width: 30%;
 }
 
-main section{
+main section, footer section{
     margin: 2em;
 }
 
 main section:first-of-type {
-    width: 50%;
+    width: 60%;
     display: inline-block;
 }
 
@@ -49,9 +47,9 @@ main aside:first-of-type {
     display: inline-block;
 }
 
-aside section:first-of-type {
+/* aside section:first-of-type {
     width: calc(100% - 4em);
-}
+} */
 
 section article {
     margin: 2em;
