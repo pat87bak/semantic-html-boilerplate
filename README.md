@@ -21,9 +21,10 @@ It can be used as a **boilerplate**
 ## Setup
 To run this project, just open index.html file in a browser. 
 ```
-$ git clone https://github.com/pat87bak/cheatsheet.git
-$ cd ../cheatsheet
-open index.html
+$ git clone https://github.com/pat87bak/semantic-html-boilerplate.git
+$ cd ../semantic-html-boilerplate
+open index.html and styles.css
+make modifications
 ```
 
 ## Preview
